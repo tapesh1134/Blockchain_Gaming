@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Blockchain Tic-Tac-Toe</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Blockchain Tic-Tac-Toe</h1>
+        <p id="status">Waiting for Player 2...</p>
+
+        <div id="game-board" class="board">
+            <button class="cell" data-index="0"></button>
+            <button class="cell" data-index="1"></button>
+            <button class="cell" data-index="2"></button>
+            <button class="cell" data-index="3"></button>
+            <button class="cell" data-index="4"></button>
+            <button class="cell" data-index="5"></button>
+            <button class="cell" data-index="6"></button>
+            <button class="cell" data-index="7"></button>
+            <button class="cell" data-index="8"></button>
+        </div>
+
+        <button id="reset">Reset Game</button>
+
+        <!-- Blockchain Buttons -->
+        <button onclick="createGame()">Create Game & Stake ETH</button>
+        <button onclick="joinGame(1)">Join Game</button>
+        <button onclick="declareWinner(1)">Declare Winner</button>
+    </div>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/ethers/6.7.0/ethers.umd.min.js"></script>
+    <script src="contract.js"></script>
+    <script src="tic-tac-toe.js"></script>
+</body>
+</html>

@@ -1,0 +1,40 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    background: #282c34;
+    color: white;
+}
+
+.container {
+    margin-top: 50px;
+}
+
+.board {
+    display: grid;
+    grid-template-columns: repeat(3, 100px);
+    gap: 10px;
+    justify-content: center;
+    margin: 20px auto;
+}
+
+.cell {
+    width: 100px;
+    height: 100px;
+    background: #f3f3f3;
+    font-size: 2rem;
+    color: black;
+    border: 2px solid black;
+}
+
+button {
+    background: #3498db;
+    color: white;
+    padding: 10px 15px;
+    margin: 10px;
+    border: none;
+    cursor: pointer;
+}
+
+button:hover {
+    background: #2980b9;
+}

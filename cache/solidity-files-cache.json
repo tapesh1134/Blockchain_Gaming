@@ -1,0 +1,41 @@
+{
+  "_format": "hh-sol-cache-2",
+  "files": {
+    "C:\\Users\\xllsc\\OneDrive\\Desktop\\git\\Blockchain_Gaming\\contracts\\GameContract.sol": {
+      "lastModificationDate": 1742727712033,
+      "contentHash": "23a13237e90c4aad67a73b556cdfa007",
+      "sourceName": "contracts/GameContract.sol",
+      "solcConfig": {
+        "version": "0.8.19",
+        "settings": {
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        "^0.8.0",
+        "^0.8.0"
+      ],
+      "artifacts": [
+        "GameContract"
+      ]
+    }
+  }
+}
